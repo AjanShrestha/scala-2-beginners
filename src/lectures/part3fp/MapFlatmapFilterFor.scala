@@ -61,4 +61,15 @@ object MapFlatmapFilterFor extends App {
   list.map { x =>
     x * 2
   }
+
+  /*
+    1.  MyList supports for comprehensions?
+        requires this signature
+        map(f: A => B) => MyList[B]
+        filter(p: A => B) => MyList[A]
+        flatMap(f: A => MyList[B]) => MyList[B]
+    2.  Implement a small collection of at most ONE element - Maybe[+T]
+        - it will have Empty and a collection with only ONE element
+        - map, flatMap, filter
+   */
 }
