@@ -42,4 +42,8 @@ object CaseClasses extends App {
   case object UnitedKingdom {
     def name: String = "The UK of GB and NI"
   }
+
+  /*
+    Expand MyList - use case classes and case objects
+   */
 }
